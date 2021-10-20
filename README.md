@@ -1,6 +1,8 @@
 # Spell-Correction-for-Roman-Urdu-NLP
 Under the domain of Natural Language Processing
 
+You will be correcting non-word errors using the Noisy Channel model. This spell correction technique has been widely used by word processors and is also being used by Google in its search engine. Whenever you type in a query with a misspelled word such as corection Google would instantly return the results for correction instead.
+
 1. Trained a uni-gram model using the corpus provided in data.txt.
 2. Created insert, delete, substitution and transposition tables for alphabets a-z using the provided mis-
 spellings.txt. The tables can be implemented using Python dictionaries.
